@@ -18,7 +18,7 @@ struct SuffixTree {
     ActivePoint ap;
 
     // functions
-    bool containsSuffix(Node * an);
+    bool activeNodeContainsSuffix();
 
 };
 
@@ -33,7 +33,6 @@ SuffixTree::SuffixTree(string r) {
     ap.actlength = 0;
 }
 
-bool SuffixTree::containsSuffix(Node * an) {
-    //if (ap.actnode->firstchild
+bool SuffixTree::activeNodeContainsSuffix() {
     return true;
 }
